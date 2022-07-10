@@ -118,13 +118,30 @@
     background-image:url(bg.jpg);
     background-size: cover;
 }
-#headcenter{
+#headcenterwd{
     position: relative;
     left: 40%;
     color:white;
     font-family: 'Gentium Book Plus', serif;
 }
-
+#headcenterpy{
+    position: relative;
+    left: 45%;
+    color:white;
+    font-family: 'Gentium Book Plus', serif;
+}
+#headcenterdaa{
+    position: relative;
+    left: 35%;
+    color:white;
+    font-family: 'Gentium Book Plus', serif;
+}
+#headcenterse{
+    position: relative;
+    left: 35%;
+    color:white;
+    font-family: 'Gentium Book Plus', serif;
+}
 .programmboxes{
     display: flex;
     justify-content: space-around;
@@ -182,8 +199,17 @@
     overflow-y: scroll;
 }
 @media only screen and (max-width: 1000px) {
-    #headcenter{
+    #headcenterwd{
         left: 30%;
+    }
+    #headcenterdaa{
+        left: 0%;
+    }
+    #headcenterpy{
+        left: 40%;
+    }
+    #headcenterse{
+        left: 20%;
     }
    .programbox1{
     height: 200px;
@@ -193,11 +219,20 @@
     height: 200px;
     width: 100%;
    }
+  
 }
 @media only screen and (max-width: 500px) {
-  
-    #headcenter{
+    #headcenterwd{
         left: 20%;
+    }
+    #headcenterdaa{
+        left: 0%;
+    }
+    #headcenterpy{
+        left: 35%;
+    }
+    #headcenterse{
+        left: 10%;
     }
 }
 .modal-body{
@@ -258,6 +293,7 @@ img
     .number3{
         margin-top: 950px;
     }
+   
 }
 
 ol{
@@ -294,16 +330,11 @@ ol{
 
 /* DAA */
 
-.headcenterdaa{
-    margin-left: -10%;
-}
-.headcenterse{
-    margin-left: -5%;
-}
-
 .daahead{
     background-image: url(https://i.ytimg.com/vi/xZVAkCpDdSs/maxresdefault.jpg);
 }
 .sehead{
     background-image: url(https://wallpapercave.com/wp/wp2422279.jpg);
+    
 }
+
