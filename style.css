@@ -11,6 +11,10 @@
 }
 *::-webkit-scrollbar-thumb{
     background: #ff0303cb;
+    
+}
+*::selection{
+    background: rgb(234, 255, 0);
 }
         body{
             margin: 0;
@@ -172,6 +176,7 @@
     align-items: center;
     font-weight: 700;
     font-size: 25px;
+    flex-wrap: wrap;
 }
 #programbox11::before {
     content: "1";
@@ -343,3 +348,15 @@ ol{
     
 }
 
+/* pre tag wrap */
+pre{
+    padding: 10px;
+    font-weight: 600;
+    white-space: pre-line;
+    color :white;
+    background-color: #6a6e6d;
+}
+
+pre span{
+    color: rgb(0, 234, 255);
+}
