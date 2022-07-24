@@ -627,17 +627,17 @@
                   <!-- <img src="pythonphoto/photo30.jpg"> -->
                   <pre>
                     a = int(input("enter the first number : "))
-                      b = int(input("enter the second number : "))
-                      c = int(input("enter the third number : "))
+                    b = int(input("enter the second number : "))
+                    c = int(input("enter the third number : "))
 
-                      if (a &gt; b) and (a &gt; c):
-                          print(a, " is max number of given three")
-                      elif (b &gt; a) and (b &gt; c):
-                          print(b," is max number of given three")
-                      elif (c &gt; a) and (c &gt; b):
-                          print(c," is max number of given three")
-                      else:
-                          print("your inpute is incorrect")
+                    if (a &gt; b) and (a &gt; c):
+                    &nbsp&nbsp&nbsp&nbsp print(a, " is max number of given three")
+                    elif (b &gt; a) and (b &gt; c):
+                    &nbsp&nbsp&nbsp&nbsp print(b," is max number of given three")
+                    elif (c &gt; a) and (c &gt; b):
+                    &nbsp&nbsp&nbsp&nbsp print(c," is max number of given three")
+                    else:
+                    &nbsp&nbsp&nbsp&nbsp print("your inpute is incorrect")
                   </pre>
 
                 </div>
@@ -671,17 +671,17 @@
                     choice = input("enter the condition to perfome task (add,sub,mult,div,modulo):")
 
                     if choice == 'add':    
-                      print (a, " + ", b, " = ", (a+b))    
+                    &nbsp&nbsp&nbsp&nbsp  print (a, " + ", b, " = ", (a+b))    
                         
                     elif choice == 'sub':    
-                      print (a, " - ", b, " = ", (a-b))    
+                    &nbsp&nbsp&nbsp&nbsp  print (a, " - ", b, " = ", (a-b))    
                         
                     elif choice == 'mult':    
-                      print (a, " * ", b, " = ", (a*b))    
+                    &nbsp&nbsp&nbsp&nbsp  print (a, " * ", b, " = ", (a*b))    
                     elif choice == 'div':    
-                      print (a, " / ", b, " = ", (a/b))    
+                    &nbsp&nbsp&nbsp&nbsp  print (a, " / ", b, " = ", (a/b))    
                     else:    
-                      print ("This is an invalid input") 
+                    &nbsp&nbsp&nbsp&nbsp  print ("This is an invalid input") 
                   </pre>
                 </div>
                 <div class="programbox2">
@@ -694,9 +694,9 @@
                     n = 12345
                     sum = 0
                     while (n != 0):
-                        rem = n % 10
-                        sum = sum + rem
-                        n = n//10
+                    &nbsp&nbsp&nbsp&nbsp    rem = n % 10
+                    &nbsp&nbsp&nbsp&nbsp    sum = sum + rem
+                    &nbsp&nbsp&nbsp&nbsp    n = n//10
                           
                     print("sum of the digits is :",sum)
    
@@ -725,17 +725,17 @@
                   <pre>
                     def Iterativefactorial(m):
 
-                        fact = 1
-                        for i in range(2, m+1):
-                            fact *= i
-                        return fact
+                    &nbsp&nbsp&nbsp&nbsp    fact = 1
+                    &nbsp&nbsp&nbsp&nbsp    for i in range(2, m+1):
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        fact *= i
+                    &nbsp&nbsp&nbsp&nbsp    return fact
 
                     def Recursivefactorial(n):
 
-                        if n == 0:
-                            return 1
+                    &nbsp&nbsp&nbsp&nbsp     if n == 0:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          return 1
 
-                        return n * Recursivefactorial(n-1)
+                    &nbsp&nbsp&nbsp&nbsp    return n * Recursivefactorial(n-1)
 
 
                     num = int(input("enter the number : \n"))
@@ -754,43 +754,43 @@
                   <img src="pythonphoto/photo41.jpg"> -->
                   <pre>
                     def Stringdigits(str):
-                          d=0
-                          for i in str:
-                              if i.isdigit():
-                                  d=d+1
-                              else:
-                                  pass
-                          return d
+                    &nbsp&nbsp&nbsp&nbsp      d=0
+                    &nbsp&nbsp&nbsp&nbsp      for i in str:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          if i.isdigit():
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              d=d+1
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          else:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              pass
+                    &nbsp&nbsp&nbsp&nbsp      return d
 
-                      def Stringletter(str):
-                          l=0
-                          for i in str:
-                              if i.isalpha():
-                                  l=l+1
-                              else:
-                                  pass
-                          return l
+                    def Stringletter(str):
+                    &nbsp&nbsp&nbsp&nbsp      l=0
+                    &nbsp&nbsp&nbsp&nbsp      for i in str:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          if i.isalpha():
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              l=l+1
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          else:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              pass
+                    &nbsp&nbsp&nbsp&nbsp      return l
 
-                      def StringUppercase(str):
-                          uc=0
-                          for i in str:
-                              if(i.isupper()):
-                                  uc=uc+1
-                          return uc
+                    def StringUppercase(str):
+                    &nbsp&nbsp&nbsp&nbsp      uc=0
+                    &nbsp&nbsp&nbsp&nbsp      for i in str:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          if(i.isupper()):
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              uc=uc+1
+                    &nbsp&nbsp&nbsp&nbsp     return uc
 
                       def StringLowercase(str):
-                          lc=0
-                          for i in str:
-                              if(i.islower()):
-                                  lc=lc+1
-                          return lc
+                      &nbsp&nbsp&nbsp&nbsp      lc=0
+                      &nbsp&nbsp&nbsp&nbsp   for i in str:
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        if(i.islower()):
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp            lc=lc+1
+                      &nbsp&nbsp&nbsp&nbsp    return lc
 
                       def Stringspace(str):
-                          count = 0
-                          for i in range(0, len(str)):
-                              if str[i] == " ":
-                                  count += 1
-                          return count
+                      &nbsp&nbsp&nbsp&nbsp    count = 0
+                      &nbsp&nbsp&nbsp&nbsp   for i in range(0, len(str)):
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        if str[i] == " ":
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp            count += 1
+                      &nbsp&nbsp&nbsp&nbsp    return count
 
                       s = input("input the sentence : ")
                       print("No of digits in string is :",Stringdigits(s),"\n")
@@ -810,43 +810,43 @@
                   <!-- <img src="pythonphoto/photo43.jpg"> -->
                   <pre>
                     def Stringdigits(str):
-                          d=0
-                          for i in str:
-                              if i.isdigit():
-                                  d=d+1
-                              else:
-                                  pass
-                          return d
+                    &nbsp&nbsp&nbsp&nbsp      d=0
+                    &nbsp&nbsp&nbsp&nbsp      for i in str:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          if i.isdigit():
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              d=d+1
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          else:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              pass
+                    &nbsp&nbsp&nbsp&nbsp      return d
 
-                      def Stringletter(str):
-                          l=0
-                          for i in str:
-                              if i.isalpha():
-                                  l=l+1
-                              else:
-                                  pass
-                          return l
+                    def Stringletter(str):
+                    &nbsp&nbsp&nbsp&nbsp      l=0
+                    &nbsp&nbsp&nbsp&nbsp      for i in str:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          if i.isalpha():
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              l=l+1
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          else:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              pass
+                    &nbsp&nbsp&nbsp&nbsp      return l
 
-                      def StringUppercase(str):
-                          uc=0
-                          for i in str:
-                              if(i.isupper()):
-                                  uc=uc+1
-                          return uc
+                    def StringUppercase(str):
+                    &nbsp&nbsp&nbsp&nbsp      uc=0
+                    &nbsp&nbsp&nbsp&nbsp      for i in str:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          if(i.isupper()):
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              uc=uc+1
+                    &nbsp&nbsp&nbsp&nbsp      return uc
 
-                      def StringLowercase(str):
-                          lc=0
-                          for i in str:
-                              if(i.islower()):
-                                  lc=lc+1
-                          return lc
+                    def StringLowercase(str):
+                    &nbsp&nbsp&nbsp&nbsp      lc=0
+                    &nbsp&nbsp&nbsp&nbsp      for i in str:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          if(i.islower()):
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              lc=lc+1
+                    &nbsp&nbsp&nbsp&nbsp      return lc
 
-                      def Stringspace(str):
-                          count = 0
-                          for i in range(0, len(str)):
-                              if str[i] == " ":
-                                  count += 1
-                          return count
+                    def Stringspace(str):
+                    &nbsp&nbsp&nbsp&nbsp      count = 0
+                    &nbsp&nbsp&nbsp&nbsp      for i in range(0, len(str)):
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          if str[i] == " ":
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              count += 1
+                    &nbsp&nbsp&nbsp&nbsp      return count
 
                       s = input("input the sentence : ")
                       print("No of digits in string is :",Stringdigits(s),"\n")
@@ -866,29 +866,29 @@
                   <!-- <img src="pythonphoto/photo45.jpg"> -->
                   <pre>
                     def ConvertHex(n):
-                          conversionTable = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A' , 'B', 'C', 'D', 'E', 'F']
-                          hexadecimal = ''
-                          while(n>0):
-                              rem = n%16
-                              hexadecimal = conversionTable[rem] + hexadecimal
-                              n = n//16
-                          print(hexadecimal)
+                    &nbsp&nbsp&nbsp&nbsp      conversionTable = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A' , 'B', 'C', 'D', 'E', 'F']
+                    &nbsp&nbsp&nbsp&nbsp      hexadecimal = ''
+                    &nbsp&nbsp&nbsp&nbsp      while(n>0):
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          rem = n%16
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          hexadecimal = conversionTable[rem] + hexadecimal
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          n = n//16
+                    &nbsp&nbsp&nbsp&nbsp      print(hexadecimal)
 
 
-                      def Convertoctal(n):
-                          octal = 0
-                          i = 1
-                          while n > 0:
-                              r = n % 8
-                              octal += r * i
-                              i *= 10
-                              n = n // 8
-                          print(octal)
+                    def Convertoctal(n):
+                    &nbsp&nbsp&nbsp&nbsp      octal = 0
+                    &nbsp&nbsp&nbsp&nbsp      i = 1
+                    &nbsp&nbsp&nbsp&nbsp      while n > 0:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          r = n % 8
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          octal += r * i
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          i *= 10
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          n = n // 8
+                    &nbsp&nbsp&nbsp&nbsp      print(octal)
 
-                      def Convertbinary(n):
-                          if n > 1:
-                              Convertbinary(n // 2)
-                          print(n % 2, end='')
+                    def Convertbinary(n):
+                    &nbsp&nbsp&nbsp&nbsp      if n > 1:
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          Convertbinary(n // 2)
+                    &nbsp&nbsp&nbsp&nbsp     print(n % 2, end='')
 
 
                       m = int(input("enter the decimal number = "))
@@ -1038,6 +1038,7 @@
     preloader.style.display = 'none';
   }
 </script>
+
 
 
 </html>
