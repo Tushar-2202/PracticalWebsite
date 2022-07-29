@@ -462,70 +462,84 @@
                   <!-- <img src="webphoto/photo22.jpg">
                   <img src="webphoto/photo23.jpg">
                   <img src="webphoto/photo24.jpg"> -->
-                  <pre>
+       <pre>
                     &lt;!DOCTYPE html&gt;
                     &lt;html lang="en"&gt;
+
                     &lt;head&gt;
                         &lt;meta charset="UTF-8"&gt;
                         &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
                         &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-                        <span>&lt;title&gt;practical 4c&lt;/title&gt;</span>
+                        &lt;title&gt;practical 4c&lt;/title&gt;
                         &lt;style&gt;
-                            .box1 ,.box2{
+                            .box1,
+                            .box2 {
                                 height: 100px;
                                 width: 100px;
                                 background-color: rgb(255, 0, 0);
                             }
-                            .box2{
+
+                            .box2 {
                                 position: absolute;
                                 background: aqua;
                                 top: 30px;
                                 left: 30px;
                             }
-                            .box4{
+
+                            .box4 {
                                 position: relative;
                                 background-color: aqua;
                                 top: 20px;
                                 left: 30px;
                             }
-                            .box6{
-                                position:absolute;
-                                background-color: aqua;
-                                bottom: 40px;
+
+                            .z-indexposition{
+                                display: flex;
+                                position: absolute;
                                 z-index: -100;
+                            }
+                            #box6{
+                                background-color: aqua;
+                                position: absolute;
+                                left: 50%;
                             }
                         &lt;/style&gt;
                     &lt;/head&gt;
+
                     &lt;body&gt;
                         &lt;!-- Positioning practical in CSS: Absolute and relative positioning, Z-index --&gt;
-                        &lt;div class="absoluteposition"&gt;
-                            
-                            &lt;div class="box1"&gt;
-                                &lt;h1&gt;box 1&lt;/h1&gt;
+                        &lt;div class="container"&gt;
+                            &lt;div class="absoluteposition"&gt;
+
+                                &lt;div class="box1"&gt;
+                                    &lt;h1&gt;box 1&lt;/h1&gt;
+                                &lt;/div&gt;
+                                &lt;div class="box2"&gt;
+                                    &lt;h1&gt;box 2&lt;/h1&gt;
+                                &lt;/div&gt;
+                                &lt;h2&gt;this is the absolute positioning&lt;/h2&gt;
                             &lt;/div&gt;
-                            &lt;div class="box2"&gt;
-                                &lt;h1&gt;box 2&lt;/h1&gt;
+                            &lt;hr&gt;
+                            &lt;div class="relativeposition"&gt;
+                                &lt;div class="box3 box1"&gt;
+                                    &lt;h1&gt;box 3&lt;/h1&gt;
+                                &lt;/div&gt;
+                                &lt;div class="box4 box1"&gt;
+                                    &lt;h1&gt;box 4&lt;/h1&gt;
+                                &lt;/div&gt;
+                                &lt;h2&gt;this is the relative positioning&lt;/h2&gt;
                             &lt;/div&gt;
-                            &lt;h2&gt;this is the absolute positioning&lt;/h2&gt;
-                        &lt;/div&gt;&lt;hr&gt;
-                        &lt;div class="relativeposition"&gt;
-                            &lt;div class="box3 box1"&gt;
-                                &lt;h1&gt;box 3&lt;/h1&gt;
+                            &lt;hr&gt;
+                            &lt;div class="z-indexposition"&gt;
+                                &lt;div class="box5 box1"&gt;
+                                    &lt;h1&gt;box 1&lt;/h1&gt;
+                                &lt;/div&gt;
+                                &lt;div class="box1" id="box6"&gt;
+                                    &lt;h1&gt;box 2&lt;/h1&gt;
+                                &lt;/div&gt;
                             &lt;/div&gt;
-                            &lt;div class="box4 box1"&gt;
-                                &lt;h1&gt;box 4&lt;/h1&gt;
-                            &lt;/div&gt;
-                            &lt;h2&gt;this is the relative positioning&lt;/h2&gt;
-                        &lt;/div&gt;&lt;hr&gt;
-                        &lt;div class="z-indexposition"&gt;
-                            &lt;div class="box5 box1"&gt;
-                                &lt;h1&gt;box 1&lt;/h1&gt;
-                            &lt;/div&gt;
-                            &lt;div class="box6 box1" style="display: flex;align-items:flex-end"&gt;
-                                &lt;h1&gt;box 2&lt;/h1&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
                     &lt;/body&gt;
+
                     &lt;/html&gt;
                   </pre>
                 </div>
